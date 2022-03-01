@@ -12,30 +12,30 @@ else{
 }
 var compare = function(choice1,choice2){
     if(choice1===choice2){
-        return "The result is a tie!";
+        alert("The result is a tie!");
     }
     if(choice1==="rock"){
         if(choice2==="scissors"){
-            return "rock wins";
+            alert("Rock wins!");
         }
         else{
-            return "paper wins";
+            alert("Paper wins!");
         }
     }
     if(choice1==="paper"){
         if(choice2==="rock"){
-            return "paper wins";
+            alert("Paper wins!");
         }
         else{
-            return "scissors wins";
+            alert("Scissors wins!");
         }
     }
     if(choice1==="scissors"){
         if(choice2==="rock"){
-            return "rock wins";
+            alert("Rock wins!");
         }
         else{
-            return "scissors wins";
+            alert("Scissors wins!");
         }
     }
 };
